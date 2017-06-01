@@ -19,7 +19,7 @@ public class Human {
 	}
 	
 	public void fap() {
-		System.out.println("FAP");
+		System.out.println("*" + name + " faps*");
 	}
 	
 	public void propose(Human person) {
@@ -44,7 +44,7 @@ public class Human {
 	}
 	
 	public void ohGodWhy() {
-		System.out.println("Oh no!");
+		System.out.println(name + ": Oh no!");
 	}
 	
 	public void insertInto(Human person) {
